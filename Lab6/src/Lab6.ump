@@ -1,0 +1,51 @@
+class Customer
+{
+  
+  String name;
+  String address;
+  
+  void changeName(String newName)
+  {
+    name = newName;
+  }
+  
+  void changeAddress(String newAddress)
+  {
+    address = newAddress;
+  }
+}
+
+class Account
+{
+ 
+  int accountNumber;
+  int balance;
+  
+  int checkBalance()
+  {
+    return balance;
+  }
+  
+  void addToBalance(int payment)
+  {
+    balance += payment;
+  }
+  
+}
+
+class Order
+{
+  int cost;
+  int orderDate;
+  int orderID;
+  
+  void makeOrder(int price, int date)
+  {
+  }
+  
+  int checkOrderDate()
+  {
+    return orderDate;
+  }
+}
+

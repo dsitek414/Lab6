@@ -1,0 +1,11 @@
+The code I wrote only had two methods, but the generated code automatically
+ has setters and getters for each variable, as well as a default constructor.
+ The auto generated code has broken up each class into its own file, and 
+ each class has its own toString() method. The umple plugin could be useful for
+ planning out projects, as it provides a good framework to build upon. The
+ plugin would be hard to use for intense programming, as it is difficult to
+ add complex methods to the program. Umple is useful for beginning a project
+ but would hinder the programmer once progress has been made, as it is not
+ good for editing complex functions. All in all, I liked it although sometimes
+ it was difficult and does not allow overriding the default get and set
+ methods, which is good or bad depending on the situation.
